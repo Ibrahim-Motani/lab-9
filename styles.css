@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heading {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#form {
+  margin: 0 20%;
+}
+
+.is-prime {
+  color: #00e676;
+}
+
+.not-prime {
+  color: #ff3d00;
+}
+
+#label {
+  font-size: 20px;
+}
+
+#form input[type="number"] {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #333;
+  align-self: stretch;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 60%;
+}
+
+#form input[type="submit"] {
+  background: #0275d8;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+#form input[type="submit"]:hover {
+  background: #045aa5;
+}
+
+#attempts {
+  margin-left: 25%;
+}
+
+#attempts li {
+  line-height: 1.5;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  background: #333;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  color: whitesmoke;
+}
