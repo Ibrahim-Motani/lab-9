@@ -7,7 +7,7 @@ const body = document.getElementsByTagName("body")[0];
 
 const addToTheList = (number, isPrime) => {
   const li = document.createElement("li");
-  li.textContent = number;
+  li.textContent = `${number} is ${isPrime ? 'a' : 'not a'} prime number`;
   li.className = isPrime ? "is-prime" : "not-prime";
   list.append(li);
   body.insertBefore(list, footerHandler);
